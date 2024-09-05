@@ -4,7 +4,7 @@ public class NPC(){
     public int Strength {get; set;}
     public int MaxSpeed {get; set;}
     private int _currentSpeed;
-    public int CurrentSpeed{
+    public int CurrentSpeed{ // known bug: the first attack always results in a speed of 0 and speed never goes down
         get {return _currentSpeed;}
         set {
             _currentSpeed = MaxSpeed;
