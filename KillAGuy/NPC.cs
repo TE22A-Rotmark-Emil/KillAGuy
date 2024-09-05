@@ -3,4 +3,8 @@ public class NPC(){
     public int HP {get; set;}
     public int Strength {get; set;}
     public float accuracy {get; set;}
+
+    public static void Fight(NPC attacker, NPC defender){
+        Console.WriteLine();
+    }
 }
